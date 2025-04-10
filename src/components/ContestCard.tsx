@@ -54,7 +54,8 @@ const ContestCard: React.FC<ContestCardProps> = ({ contest }) => {
           </div>
           <div className="flex items-center gap-2">
             <Clock className="w-4 h-4" />
-            <span>Duration: {getDurationText(contest.duration)}</span>
+            {/* <span>Duration: {getDurationText(contest.durationSeconds)}</span> */}
+            <span>Duration: {`2 Hour`}</span>
           </div>
         </div>
       </CardContent>
@@ -72,7 +73,7 @@ const ContestCard: React.FC<ContestCardProps> = ({ contest }) => {
           </div>
         ) : (
           <div className="text-sm text-muted-foreground">
-            Ended {new Date().getDate() - contest.endTime.getDate()} days ago
+            {/* Ended {new Date().getDate() - contest.endTime.getDate()} days ago */}
           </div>
         )}
         

@@ -68,7 +68,7 @@ const Dashboard = () => {
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold flex items-center gap-2">
               <Code2 className="h-6 w-6 text-primary" />
-              <span>CodeArena Tracker</span>
+              <span>Contest-Tracker</span>
             </h1>
           </div>
         </div>
@@ -156,7 +156,7 @@ const Dashboard = () => {
 
       <footer className="border-t border-border py-6 mt-8">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>CodeArena Tracker &copy; {new Date().getFullYear()} - Track coding contests from LeetCode, CodeForces, and CodeChef</p>
+          <p>Contest-Tracker &copy; {new Date().getFullYear()} - Track coding contests from LeetCode, CodeForces, and CodeChef</p>
         </div>
       </footer>
     </div>
